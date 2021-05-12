@@ -1,0 +1,23 @@
+.Deck {
+    position: relative;
+}
+
+.Deck-btn {
+    margin: 10px auto;
+    padding: 10px 5px;
+    color: white;
+    background-color: rgb(0, 38, 56);
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Deck-btn:focus {
+    outline: 3px solid #ccc;
+    outline-offset: -3px;
+}
+
+.Deck-btn:active {
+    transform: scale(0.90);
+}
